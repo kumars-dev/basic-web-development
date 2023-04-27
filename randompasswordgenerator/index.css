@@ -1,0 +1,87 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #CACFF9, #F5CBD9);
+    color: white;
+}
+.passwordcontainer{
+    border: 2px solid rgba(62, 59, 59, 0.518);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5%;
+    position: relative;
+    background-color: #000000;
+}
+.passwordcontainer .material-symbols-rounded
+{
+    position: absolute;
+    top: 23%;
+    right: 30%;
+    font-size: 25px;
+    font-weight: 600;
+}
+.material-symbols-rounded:hover{
+    cursor: pointer;
+    color: red;
+}
+.passwordcontainer h3
+{
+    text-align: center;
+    margin: 5px;
+    font-size: 2rem;
+}
+.generatepass
+{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #a9a9a6;
+    border-radius: 6px;
+    outline: none;
+    /* width: 60%; */
+    background: none;
+    color: whitesmoke;
+}
+
+.inputcontainercheckbox{
+    display: flex;
+    margin: 10px;
+}
+
+.inputcontainercheckbox p, .inputcontainercheckbox label{
+    flex-basis: 100%;
+}
+.inputcontainercheckbox input[type="checkbox"]
+{
+    background-color: rgba(3, 3, 254, 0.571);
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgba(3, 3, 254, 0.571);
+   border: 1px solid #a9a9a6;
+   color: whitesmoke;
+   width: 50%;
+   border-radius: 2px;
+   font-size: 1em;
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: rgba(3, 3, 254, 0.968);
+
+}
