@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Effect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <!-- scroll effect using jquery with bootstrap 4 -->
+<div class="col-lg-4 col-md-4 col-sm-4 " id="card-one">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 " id="card-two">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 " id="card-three">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+<div class="anothercontainer">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, reiciendis temporibus reprehenderit, molestiae quaerat voluptates assumenda numquam, ipsa illo minima ex quod! Veritatis dolorem est harum laborum voluptas aliquid repudiandae beatae corrupti suscipit modi facere id eius delectus tempora incidunt pariatur fugit, porro laboriosam optio cum exercitationem numquam ipsum, tenetur veniam! Magnam labore at maiores accusantium explicabo itaque reprehenderit impedit. Possimus, maiores. Suscipit eum aliquam facilis, eligendi eius odio odit pariatur. Facilis, nulla tempore, temporibus molestias quod distinctio laboriosam sit impedit nam soluta modi fuga aliquam assumenda rem! Quaerat delectus, numquam hic dolorem nam nobis. Veniam iste molestiae necessitatibus? Repellat.</p>
+    <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo suscipit iste cum consectetur quos, dolores possimus ipsum sapiente omnis iure distinctio harum quis ea obcaecati accusantium, explicabo sint voluptatem, animi saepe cumque architecto ipsam ducimus reiciendis? Quae distinctio perferendis, quam fugiat corrupti placeat, modi ex impedit dolorem iste dignissimos a, ipsum reiciendis vel error at porro nam temporibus voluptatem ipsa explicabo nisi. Facere ut cupiditate quae eum, iure porro voluptate eius placeat odit aut, natus autem veniam ab aperiam voluptatibus itaque. Error quam magni reprehenderit eum quae pariatur? Perferendis impedit quia, labore sint fuga eveniet ducimus sequi itaque veritatis sed.</span><span>Nulla repudiandae nemo doloribus. Impedit velit aliquam ipsa fuga molestias quo hic facilis illo neque. Dolores culpa dolorem ex deleniti dolore quo iure maxime qui modi officiis! Suscipit, officia! Animi aperiam soluta aspernatur officiis accusamus nisi suscipit deserunt modi, nulla quos nam molestias dolores optio quas laborum, inventore id in. Quasi consequuntur facere dolores aspernatur odit adipisci eos voluptatem ut animi asperiores. Earum quisquam quidem, qui, incidunt iure adipisci commodi, exercitationem ducimus repellat odio quas vel voluptatibus doloribus porro odit modi blanditiis rerum ad. Molestiae, optio? Quisquam sed voluptates mollitia inventore, facere, nobis quos placeat repellendus ipsum ex perspiciatis veritatis.</span></p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(window).scroll(function(){
+// targetting scroll event
+            var positiontop = $(document).scrollTop();
+            console.log(positiontop);
+            if((positiontop > 80) &&(positiontop < 214))
+            {
+                $('#card-one').addClass('animate__animated animate__backInRight');
+            }
+    });
+    });
+    
+</script>
+</body>
+</html>
