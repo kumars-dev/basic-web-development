@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logincontainer {
+    border: 1px solid black;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #8bbfec, #84bbee, #7db8f0, #76b4f2, #70b0f4);
+    background: url('../images/77461942.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.logincontainer .loginform {
+    display: block;
+    position: relative;
+    top: 15%;
+    background: url('../images/20.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 60px;
+    padding: 20px;
+    /* height: 45vh; */
+    /* width: 100%; */
+}
+
+.logincontainer .loginform h1 {
+    color: #fff;
+    font-variant-caps: all-petite-caps;
+    font-size: 50px;
+}
+
+.logincontainer .loginform .nextcontainer {
+    display: inline-block;
+    background: rgba(233, 233, 244, 0.3);
+    box-shadow: 0 8px 30px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 40px;
+    padding: 25px;
+    /* width:600px; */
+}
+
+.logincontainer .loginform .nextcontainer:hover {
+    cursor: pointer;
+}
+
+.logincontainer .loginform .nextcontainer .formcontent label {
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+}
+
+.logincontainer .loginform .nextcontainer .formcontent input {
+    border-radius: 5px;
+    border: 1px solid rgba(98, 98, 100, 0.793);
+}
+
+.logincontainer .loginform button {
+    border-radius: 5px;
+    border: 1px solid rgba(98, 98, 100, 0.793);
+    width: 100px;
+    /* color: rgba(134, 132, 132, 0.822); */
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    /* -webkit-text-stroke: 1px #000; */
+}
+
+.logincontainer .loginform button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}

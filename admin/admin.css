@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* adminheader.php */
+
+#admin_nav {
+    display: block;
+    /* border: 1px solid red; */
+    background-color: black;
+    text-align: center;
+}
+
+#admin_nav .unorderlist {
+    display: inline-block;
+    /* position: relative;
+    left: 7%; */
+
+}
+
+#admin_nav .unorderlist li {
+    display: inline;
+    /* margin: 5px; */
+    padding: 5px;
+    text-align: center;
+    /* transition: all 5s 10s  ease-in; */
+}
+
+#admin_nav .unorderlist li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#admin_nav .unorderlist li:hover a {
+    background-color: #ffff;
+    color: black;
+    border-radius: 5px;
+}
+
+/* ************************************************************************* postdetail.php****************** */
+/* ********************************************** */
+.backimg
+{
+   background-image: linear-gradient(45deg, #9eadf1,#9eadf2,#9aedf1);
+   position: relative;
+   top: 0px;
+   padding: 0px;
+   width: 100%;
+   height: 92.2vh;
+   margin: 0px;
+}
+.heading {
+    display: block;
+    /* margin: 2px; */
+    /* padding: 2px; */
+    /* border: 1px solid black; */
+}
+
+.heading h1 {
+    margin: 0px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 40px;
+    letter-spacing: 0.3rem;
+    text-transform: capitalize;
+}
+.btn button
+{
+    transition: all  ease-in;
+    transition-duration: 0.2s;
+    width: 130px;
+    /* transition-delay: 1s; */
+}
+.btn button:hover
+{
+    cursor: pointer;
+    background-color: rgba(22, 168, 22, 0.726);
+    color: whitesmoke;
+}
+.tabcontainer
+{
+    position: relative;
+    display: block;
+    /* border: 1px solid rgba(126, 124, 124, 0.856); */
+    border-radius: 5px;
+    backdrop-filter: blur(18px) ;
+    background-color: rgba(216, 237, 247, 0.719);
+    border: 1px solid rgba(177, 179, 184, 0.836);
+    height: 60vh;
+    margin: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;    
+}
+.tabcontainer::-webkit-scrollbar
+{
+    width: 0.3vw;    
+}
+.tabcontainer::-webkit-scrollbar-thumb
+{
+    background-color: #9eadf1;
+    border-radius: 10px;
+}
+.tabcontainer::-webkit-scrollbar-track
+{
+    background-color: #788ef1;
+    border-radius: 10px;
+}
+
+.table1 {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.table1 .tablecl {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.table1 .tablecl .table1row {
+    /* display: block; */
+    border-radius: 3px;
+    backdrop-filter: blur(18px) ;
+    background-color: rgba(216, 237, 247, 0.719);
+    border: 1px solid rgba(177, 179, 184, 0.836);
+    padding: 10px;
+}
+
+.table1 .tablecl .table1row .theading {
+    border: 1px solid rgba(126, 124, 124, 0.856);
+    backdrop-filter: blur(16px);
+    text-align: center;
+    margin: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding: 10px;
+    height: 20px;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+    transition-duration: 0.4s;
+}
+
+.table1 .tablecl .table1row .theading:hover {
+    background-color: rgba(22, 168, 22, 0.726);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.table1 .tablecl .table1row .tdata {
+    border: 1px solid rgba(126, 124, 124, 0.856);
+    backdrop-filter: blur(16px);
+    text-align: center;
+    padding: 10px;
+    height: 14px;
+    width: 100px;
+    color: rgba(78, 76, 76, 0.815);
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    transition: all 0.2s ease-in;
+    transition-duration: 0.4s;
+
+}
+.table1 .tablecl .table1row .tdata:hover
+{
+    background-color: rgba(22, 168, 22, 0.726);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+.table1 .tablecl .table1row .tdata a {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(78, 76, 76, 0.815);
+}
+
+.table1 .tablecl .table1row #tdata1:hover {
+    background-color: rgba(233, 22, 22, 0.829);
+    cursor: pointer;
+    color: whitesmoke;
+}
+.table1 .tablecl .table1row #tdata1:hover a{
+    color: whitesmoke;
+}

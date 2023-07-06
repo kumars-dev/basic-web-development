@@ -1,0 +1,55 @@
+.adduserform{
+    /* border: 1px solid rgb(187, 186, 186); */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.formpart
+{
+    /* text-align: left; */
+    border: 1px solid rgb(187, 186, 186);
+    background: linear-gradient(30deg, #fcd39e,#d68f83,#f0d1a3,#fcd39e);
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+.form-group
+{
+    margin: 20px;
+}
+.form-group .userlabel
+{
+    font-size: 1.3em;
+    margin: auto;
+    display: block;
+    width: 60%;
+    text-align: left;
+    margin-bottom: -8px;
+}
+.userinput
+{ 
+    margin: 0px;
+    padding: 5px;
+    height: 15px;
+    width: 65%;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 3px;
+}
+.userinputrole
+{
+    height: 30px;
+    border: 1px solid rgb(187, 186, 186);
+}
+.savebtn
+{
+    padding: 5px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 3px;
+}
+.savebtn:hover
+{
+    cursor: pointer;
+    background-color: rgba(201, 200, 196, 0.562);
+}

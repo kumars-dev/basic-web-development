@@ -1,0 +1,61 @@
+.backimg
+{
+    background-image: linear-gradient(45deg, #9eadf1,#9eadf2,#9aedf1);
+}
+.postform
+{
+   display: block; 
+   border-radius: 5px;
+    backdrop-filter: blur(24px) ;
+    background-color: rgba(216, 237, 247, 0.719);
+    border: 1px solid rgba(177, 179, 184, 0.836);
+   border-radius: 14px;
+   margin: 30px;
+   height: 70vh;
+   padding: 10px;
+   text-align: center;
+   justify-content: center;
+}
+.postform form
+{
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    margin: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(0px) ;
+    background-color: rgba(216, 237, 247, 0.719);
+    border: 1px solid rgba(177, 179, 184, 0.836);
+    width: 60vw;
+    padding: 40px;
+    border: 1px solid rgba(126, 124, 124, 0.856);
+}
+.postform form label
+{
+    margin: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.postform form input
+{
+    margin: 2px;
+    padding: 3px;
+}
+.postform form button
+{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    width: 140px;
+}
+.postform form button:hover
+{
+    color: white;
+    background-color: rgba(22, 168, 22, 0.726);
+    cursor: pointer;
+}

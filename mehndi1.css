@@ -1,0 +1,68 @@
+/* contact.php */
+form
+{
+    display: block;
+    position: relative;
+    top: 30px;
+    background: url('./images/20191102_152151.jpg');
+    background-position: center;
+    background-size: cover;
+    /* left: 35%; */
+    margin: 10px;
+    border: 1px solid rgba(132, 131, 131, 0.772);
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius:3px;
+    height: 75vh;
+}
+form .formback
+{
+    margin: 10px;
+    border: 1px solid rgba(132, 131, 131, 0.772);
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+}
+form .fcontainer
+{
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+form .fcontainer label
+{
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    /* color: white; */
+    text-transform: capitalize;
+    text-align: left;
+    align-items: left;
+}
+form .fcontainer input
+{
+    border: none;
+    border-bottom: 2px dashed rgba(132, 131, 131, 0.772);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background: transparent;
+}
+form button
+{
+    width: 120px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgba(132, 131, 131, 0.772);
+    letter-spacing: 0.1rem;
+}
+form button:hover
+{
+    cursor: pointer;
+}
